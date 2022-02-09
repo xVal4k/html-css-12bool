@@ -19,7 +19,6 @@ html {
     height: 2.2rem; 
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
 }
 
 .text {
@@ -35,8 +34,7 @@ html {
     border: 1px solid white;
     text-align: center;
     line-height: 2.2rem;
-    color: white;
-    flex: 0 0 auto;
+    color: white;    
 }
 
 .green-ins {
