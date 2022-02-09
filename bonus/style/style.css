@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.row {
+    height: 2.3rem; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.black {
+    background: black;
+}
+
+.grey {
+    background: grey;
+}
+
+
+.red {
+    background: red;
+}
+
+.pink {
+    background: pink;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.beige {
+    background: rgb(233, 188, 75);
+}
+
+.green {
+    background: greenyellow;
+}
+
+.blue {
+    background: rgb(30, 30, 202);
+}
+
+.purple {
+    background: #9900FF;
+}
+
