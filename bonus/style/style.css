@@ -5,9 +5,12 @@
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1170px;
     margin: 0 auto;
     height: 100vh;
+    position: relative;
+    top: 0;
+    right: 0;
 }
 
 .row {
@@ -16,6 +19,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
 
 .black {
     background: black;
@@ -58,3 +62,27 @@
     background: #9900FF;
 }
 
+body {
+    animation: fly 5s linear infinite;
+}
+
+@keyframes fly {
+    25% {
+        transform: translate(-5%, 10%);
+    }
+
+    50% {
+        transform: translate(5%, 20%);
+
+    }
+
+    75% {
+        transform: translate(10%, 10%);
+
+    }
+
+    100% {
+        transform: translate(0, 0);
+
+    }
+}
